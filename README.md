@@ -62,6 +62,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 # Aplikasi Pendaftaran IGD & Penempatan Kamar Inap
 
 Aplikasi ini merupakan sistem informasi berbasis web yang dibangun dengan Laravel 12 dan Filament v3.3.14. Sistem ini mendukung manajemen pendaftaran pasien di IGD, pengelolaan kamar rawat inap, serta sistem role dan permission menggunakan Spatie.
+Jika Berkenan Bisa Donate Boss Buat Ngopi Ngopi Dana : +62 838-3738-9187
 
 ## 📦 Fitur Utama
 
