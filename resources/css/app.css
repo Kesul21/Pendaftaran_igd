@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Kustom sidebar */
+.fi-sidebar {
+    background-color: #1e3a8a !important;
+    /* biru navy */
+}
+
+/* Warna teks sidebar */
+.fi-sidebar nav a {
+    color: #fff !important;
+}
+
+/* Warna saat hover */
+.fi-sidebar nav a:hover {
+    background-color: #2563eb !important;
+}
+
+/* Warna menu aktif */
+.fi-sidebar nav a[aria-current="page"] {
+    background-color: #172554 !important;
+}
