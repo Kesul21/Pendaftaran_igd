@@ -102,36 +102,20 @@ git clone https://github.com/nama-kamu/igd-inap-app.git
 cd igd-inap-app
 Install dependensi PHP
 
-bash
-Salin
-Edit
-composer install
-Install dependensi frontend
 
-bash
-Salin
-Edit
+composer install
 npm install
 npm run build
 Copy file .env dan atur konfigurasi
-
-bash
-Salin
-Edit
-cp .env.example .env
+rubah .env.example menjadi.env
 Edit .env dan atur database:
 
 env
-Salin
-Edit
 DB_DATABASE=igd_inap
 DB_USERNAME=root
 DB_PASSWORD=
-Generate key dan migrate database
 
-bash
-Salin
-Edit
+Generate key dan migrate database
 php artisan key:generate
 php artisan migrate --seed
 Seeder akan otomatis membuat:
@@ -142,21 +126,11 @@ Admin IGD dan Admin Rawat Inap (opsional tergantung seeder)
 
 Install panel Filament (jika belum)
 
-bash
-Salin
-Edit
 php artisan filament:install
 Buat user baru untuk login Filament
-
-bash
-Salin
-Edit
 php artisan make:filament-user
-Jalankan server
 
-bash
-Salin
-Edit
+Jalankan server
 php artisan serve
 Akses: http://localhost:8000/admin
 
